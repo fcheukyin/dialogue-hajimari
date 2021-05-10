@@ -1,0 +1,96 @@
+@media (max-width: 991px) {
+    .disco-wrap {
+        display: block;
+        min-height: calc(222px*8);
+        width: 100%;
+    }
+    .disco-wrap a {
+        position: relative;
+        display: block;
+        width: 100%;
+        height: 222px;
+    }
+    .disco .fixed {
+        position: absolute;
+        top: 25%;
+        left: 50%;
+        transform: translate(-45%, -25%);
+        width: 70%;
+        padding: none;
+    }
+    .release {
+        font-size: 1em;
+        display: block;
+    }
+    .fixed h2 {
+        font-size: 2em;
+    }
+    .title-wrap {
+        height: 260px;
+    }
+    .event p {
+        width: 140px;
+        font-size: 1.1em;
+        color: #fff;
+        z-index: 9;
+        overflow-wrap: break-word;
+    }
+    .column-left .event .description {
+        margin-right: 7px;
+    }
+    .column-right .event .description {
+        margin-left: 7px;
+    }
+    .phrase-wrap {
+        height: 420px;
+    }
+    .phrase-wrap p {
+        top: 30%;
+        width: 75%;
+    }
+    .menu .sns-area {
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+@media (min-width: 992px) {
+    .members-wrap {
+        width: 700px;
+    }
+    .members-wrap .member-wrap {
+        height: 100px;
+    }
+    .disco-wrap a {
+        position: relative;
+        transition: transform .5s ease-out;
+    }
+    .disco-wrap a:before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background-color: rgba(3,3,3,.3);
+        visibility: hidden;
+        opacity: 0;
+        z-index: 4;
+        transition: .3s ease-out;
+    }
+    .disco-wrap a.expand {
+        z-index: 5;
+    }
+    .disco-wrap a.expand .color {
+        transform-origin: center;
+        transform:scaleX(1.2);
+    }
+    .disco-wrap a.shrink .color {
+        transform:scaleX(0.9);
+    }
+    .disco-wrap a.overlayed:before {
+        visibility: visible;
+        opacity: 1;
+        z-index: 4;
+        transition: .3s ease-out;
+    }
+}
