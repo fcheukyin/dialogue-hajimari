@@ -164,6 +164,7 @@ header div {
     top: 8%;
     left: 50%;
     transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
 }
 .disco-wrap {
     width: 100%;
