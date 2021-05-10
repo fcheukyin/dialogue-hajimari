@@ -164,13 +164,9 @@ header div {
     position: relative;
     height: 450px;
     background-color: #f5acba;
-}
-.tweet {
-    position: absolute;
-    top: 8%;
-    left: 50%;
-    -webkit-transform: translate(-50%,0);
-    transform: translate(-50%,0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .disco-wrap {
     width: 100%;

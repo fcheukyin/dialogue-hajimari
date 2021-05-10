@@ -97,10 +97,3 @@
         transition: .3s ease-out;
     }
 }
-@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
-{ @media {
-    .tweet {
-        transform: translate(-100%, 0);
-        -webkit-transform: translate(-100%, 0);
-    }
-}}
