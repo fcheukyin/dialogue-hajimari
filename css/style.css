@@ -1,4 +1,4 @@
-::-webkit-scrollbar {
+body::-webkit-scrollbar {
     display: none;
 }
 a, a:hover {
@@ -9,6 +9,9 @@ body {
     width: 100%;
     background: lightgoldenrodyellow;
     font-family: 'Train One', cursive;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll; 
 }
 header {
     position: fixed;
