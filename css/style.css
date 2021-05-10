@@ -64,6 +64,9 @@ header div {
     color: #fff;
     font-size: 1em;
 }
+.logo span{
+    display: inline-block;
+}
 .logo span:nth-child(1) {
     font-size: 1.5em;
     margin-right: 8px;
