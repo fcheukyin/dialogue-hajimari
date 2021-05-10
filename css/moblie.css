@@ -1,4 +1,7 @@
 @media (max-width: 991px) {
+    .logo {
+        font-size: 1.1em;
+    }
     .disco-wrap {
         display: block;
         min-height: calc(222px*8);
