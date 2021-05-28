@@ -97,3 +97,8 @@
         transition: .3s ease-out;
     }
 }
+@media(max-width:1150px) and (min-width: 950px) {
+    .fixed h2 {
+        font-size: 1em;
+    }
+}
